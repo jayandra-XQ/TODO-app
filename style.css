@@ -1,8 +1,13 @@
-body{
+body {
     font-family: sans-serif;
+    margin: 0 50px;
     background-color: #e5e5e5;
-}
-
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
 .app{
     width: 300px;
@@ -18,7 +23,7 @@ body{
 
 #addNew{
     display: flex;
-    background-color: rgba(171,206,161,0.35);
+    background-color: rgba(108, 128, 103, 0.35);
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
